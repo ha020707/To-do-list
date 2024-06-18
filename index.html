@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 bg-light" id="slidebar">
+            </div>
+
+            <div class="col-md-9 mt-3">
+                <div class="p-3">
+                    <h4>Good Morning, Ha</h4>
+                    <p id="current-date"></p>
+                    <div class="input-group mb-3">
+                        <input type="text" id="input-box" class="form-control" placeholder="Write down something here..">
+                        <button id="btn-add" class="btn
+                                btn-outline-primary">Add</button>
+                    </div>
+
+                    <ul id="list-container" class="list-group"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
