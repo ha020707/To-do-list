@@ -1,16 +1,16 @@
 body {
-    font-family: "Arial", sans-serif;
-    background-color: #fff;
+  font-family: "Arial", sans-serif;
+  background-color: #f2f3f7;
 }
 
-.slide-bar {
-    height: 90vh !important;
+.slidebar {
+  height: 90vh !important;
 }
 
 .nav-link {
-    transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .object-fit {
-    object-fit: cover;
+  object-fit: cover;
 }
